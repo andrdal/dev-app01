@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "environment_name" {
   type    = string
-  default = "Dev"
+  default = "Workload-Dev"
 }
 
 variable "vpc_cidr" {
